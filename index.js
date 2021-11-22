@@ -2,7 +2,10 @@ var readlineSync = require('readline-sync');
 
 var userIn = readlineSync.question("Welcome to the Attack on Titan Panel Game! \nDo you want to take this test of knowledge? ");
 
-console.log("Just type in the option 'a' or 'b' without any punctuations ")
+console.log("")
+console.log("For the answers, just type in the option 'a' or 'b' without any punctuations")
+console.log("")
+
 // array of objects
 var questions = [{
   question: "What's the name of the outermost wall? \n(a) Wall Rose \n(b) Wall Maria \n(c) Wall Titan \n(d) Wall Sina \n",
