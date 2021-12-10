@@ -37,7 +37,7 @@ var questions = [{
 
 var score = 0;
 
-if (userIn.toLowerCase() === "yes" || userIn.toLowerCase() === "yeah" || userIn.toLowerCase() === "yea") {
+if (userIn.toLowerCase() === "yes" || userIn.toLowerCase() === "yeah" || userIn.toLowerCase() === "yea" || userIn.toLowerCase() === "ye") {
   console.log("Great then! Let's go ahead.. ")
   console.log("")
 
