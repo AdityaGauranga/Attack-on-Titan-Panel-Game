@@ -1,6 +1,6 @@
 var readlineSync = require('readline-sync');
 
-var userIn = readlineSync.question("Welcome to the Attack on Titan Panel Game! For the answers, just type in the options as 'a' or 'b' without any punctuations. \nDo you want to take this test of knowledge? ");
+var userIn = readlineSync.question("Welcome to the Attack on Titan Panel Game! For the answers, just type in the options as 'a' or 'b' without any punctuations");
 
 
 // array of objects
@@ -34,10 +34,6 @@ if (userIn.toLowerCase() === "yes" || userIn.toLowerCase() === "yeah" || userIn.
   }
 }
 
-if (userIn.toLowerCase() !== "yes" || userIn.toLowerCase() !== "yeah" || userIn.toLowerCase() !== "yea" ) {
- console.log("Oh that's too bad, see you next time then (⌣_⌣”)")
- console.log("")
-}
 
 // play function
 function play(question, answer){
